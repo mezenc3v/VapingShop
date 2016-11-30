@@ -35,7 +35,9 @@ namespace VapingStore.Controllers
                     ItemsPerPage = pageSize,
                     TotalItems = category == null ?
                         repository.ElectronicCigarettes.Count() :
-                        repository.ElectronicCigarettes.Where(cigarette => cigarette.CurrentCategory == category).Count()
+                        repository.ElectronicCigarettes.Where(
+                            cigarette => cigarette.CurrentCategory == category
+                            ).Count()
                 },
                 CurrentCategory = category
 
