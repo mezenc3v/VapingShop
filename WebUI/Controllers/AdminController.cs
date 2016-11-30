@@ -23,7 +23,8 @@ namespace VapingStore.Controllers
 
         public ViewResult Edit(int electronicCigarettesId)
         {
-            ElectronicCigarettes cigarettes = repository.ElectronicCigarettes.FirstOrDefault(c => c.ElectronicCigarettesId == electronicCigarettesId);
+            ElectronicCigarettes cigarettes = repository.ElectronicCigarettes.FirstOrDefault(
+                c => c.ElectronicCigarettesId == electronicCigarettesId);
 
             return View(cigarettes);
         }
