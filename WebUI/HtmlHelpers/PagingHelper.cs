@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Web;
 using System.Web.Mvc;
-using WebUI.Models;
+using VapingStore.Models;
 
-namespace WebUI.HtmlHelpers
+namespace VapingStore.HtmlHelpers
 {
     public static class PagingHelper
     {

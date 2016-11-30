@@ -100,9 +100,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IElectronicCigarettesRepository.cs" />
+    <Compile Include="Abstract\IOrderProcessor.cs" />
     <Compile Include="Concrere\EFDbContext.cs" />
     <Compile Include="Concrere\EFElectronicCigarettesRepository.cs" />
+    <Compile Include="Concrere\EmailOrderProcessor.cs" />
+    <Compile Include="Entities\Cart.cs" />
     <Compile Include="Entities\ElectronicCigarettes.cs" />
+    <Compile Include="Entities\ShopingDetails.cs" />
     <Compile Include="Migrations\201611241722304_MigrateDB.cs" />
     <Compile Include="Migrations\201611241722304_MigrateDB.Designer.cs">
       <DependentUpon>201611241722304_MigrateDB.cs</DependentUpon>

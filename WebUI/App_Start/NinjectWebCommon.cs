@@ -5,11 +5,12 @@ using System.Web;
 using System.Web.Mvc;
 using Ninject;
 using Ninject.Web.Common;
+using VapingStore.Infrastructure;
 
-[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(WebUI.App_Start.NinjectWebCommon), "Start")]
-[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(WebUI.App_Start.NinjectWebCommon), "Stop")]
+[assembly: WebActivatorEx.PreApplicationStartMethod(typeof(VapingStore.App_Start.NinjectWebCommon), "Start")]
+[assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(VapingStore.App_Start.NinjectWebCommon), "Stop")]
 
-namespace WebUI.App_Start
+namespace VapingStore.App_Start
 {
     public class NinjectWebCommon
     {
@@ -62,7 +63,7 @@ namespace WebUI.App_Start
 
         private static void RegisterServices(IKernel kernel)
         {
-            DependencyResolver.SetResolver(new WebUI.Infrastructure.NinjectDependencyResolver(kernel));
+            DependencyResolver.SetResolver(new NinjectDependencyResolver(kernel));
         }
     }
 }

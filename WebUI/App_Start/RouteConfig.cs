@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace WebUI
+namespace VapingStore
 {
     public class RouteConfig
     {
@@ -14,16 +14,34 @@ namespace WebUI
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                name: null,
-                url: "Page{page}",
-                defaults: new { controller = "ElectronicCigarettes", action = "List"}
+                null,
+                "",
+                new { controller = "ElectronicCigarettes", action = "List", page = 1}
                 );
 
+            routes.MapRoute(
+                null,
+                "Page{page}",
+                new { controller = "ElectronicCigarettes", action = "List" , category = (string)null},
+                new { page = @"\d+"}
+                );
 
             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "ElectronicCigarettes", action = "List", id = UrlParameter.Optional }
+                null,
+                "{category}",
+                new { controller = "ElectronicCigarettes", action = "List", page = 1 }
+                );
+
+            routes.MapRoute(
+                null,
+                "{category}/Page{page}",
+                new { controller = "ElectronicCigarettes", action = "List"},
+                new { page = @"\d+" }
+                );
+
+            routes.MapRoute(
+                null,
+                "{controller}/{action}"
             );
         }
     }

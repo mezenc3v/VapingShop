@@ -32,7 +32,7 @@ namespace UnitTests
             ElectronicCigarettesController controller = new ElectronicCigarettesController(mock.Object);
             controller.pageSize = 3;
 
-            IEnumerable<ElectronicCigarettes> result = (IEnumerable<ElectronicCigarettes>)controller.List(2).Model;
+            IEnumerable<ElectronicCigarettes> result = (IEnumerable<ElectronicCigarettes>)controller.List(null,2).Model;
 
             List<ElectronicCigarettes> electronicCigarettes = result.ToList();
 

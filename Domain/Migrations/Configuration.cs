@@ -23,6 +23,7 @@ namespace Domain.Migrations
                 Price = 55,
                 Produser = "fdghfghfg",
                 Weight = 55,
+                CurrentCategory = "сигареты1"
             }
                 );
             //  This method will be called after migrating to the latest version.

@@ -1,19 +1,10 @@
-﻿@using WebUI.Models
+﻿@using VapingStore.Models
 @model ElectronicCigarettesViewModel
-
-@{
-    ViewBag.Title = "Сигареты";
-}
 
 @foreach (var cigarette in Model.ElectronicCigarettes)
 {
-    <div>
-        <h3>@cigarette.Name</h3>
-        <p>@cigarette.Produser</p>
-        <h4>@cigarette.Price руб</h4>
-    </div>
-    <hr />
+    @Html.Partial("_ElectronicCigarettesSummary",cigarette)
 }
-<div>
-    @Html.PageLinks(Model.PagingInfo, x=> Url.Action("List", new { page = x }))
+<div class="btn-group pull-right">
+    @Html.PageLinks(Model.PagingInfo, x=> Url.Action("List", new { page = x, category = Model.CurrentCategory}))
 </div>

@@ -4,8 +4,10 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using VapingStore.Entities;
+using VapingStore.Infrastructure;
 
-namespace WebUI
+namespace VapingStore
 {
     public class MvcApplication : System.Web.HttpApplication
     {
@@ -13,6 +15,7 @@ namespace WebUI
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+            ModelBinders.Binders.Add(typeof(Cart), new CartModelBinder());
         }
     }
 }
