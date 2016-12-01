@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VapingStore", "VapingStore.csproj", "{70BE2862-73AF-45B9-8532-7CCC06C3D8A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VapingStore", "..\..\..\..\Desktop\VapingStore\VapingStore.csproj", "{70BE2862-73AF-45B9-8532-7CCC06C3D8A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
