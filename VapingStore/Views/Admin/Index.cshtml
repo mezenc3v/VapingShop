@@ -1,0 +1,69 @@
+﻿@using System.Web.Services.Protocols
+@model IEnumerable<VapingStore.Entities.ElectronicCigarettes>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+}
+<div class="panel panel-default">
+    <div class="panel-heading">
+        Список товаров
+    </div>
+    <div class="panel-body">
+        <table class="table table-striped table-condensed table-bordered">
+            <tr>
+                <th class="text-left">
+                    @Html.DisplayNameFor(model => model.ElectronicCigarettesId)
+                </th>
+                <th class="text-right">
+                    @Html.DisplayNameFor(model => model.Name)
+                </th>
+                <th class="text-right">
+                    @Html.DisplayNameFor(model => model.Produser)
+                </th>
+                <th class="text-right">
+                    @Html.DisplayNameFor(model => model.Size)
+                </th>
+                <th class="text-right">
+                    @Html.DisplayNameFor(model => model.Price)
+                </th>
+                <th class="text-center">
+                    Действия
+                </th>
+            </tr>
+
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td class="text-left">
+                        @item.ElectronicCigarettesId
+                    </td>
+                    <td>
+                        @Html.ActionLink(item.Name, "Edit", new { item.ElectronicCigarettesId})
+                    </td>
+                    <td class="text-right">
+                        @Html.DisplayFor(modelItem => item.Produser)
+                    </td>
+                    <td class="text-right">
+                        @Html.DisplayFor(modelItem => item.Size)
+                    </td>
+                    <td class="text-right">
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td class="text-center">
+                        @using (Html.BeginForm("Delete", "Admin", item))
+                        {
+                            @Html.Hidden("ElectronicCigarettesId", item.ElectronicCigarettesId)
+                            <input type="submit" class="btn btn-default btn-xs" value="Удалить" />
+                        }
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+
+    <div class="panel-footer">
+        @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-default" })
+    </div>
+</div>

@@ -1,0 +1,40 @@
+﻿@model VapingStore.Entities.ElectronicCigarettes
+
+<div class="well product-panel">
+    
+        <div class="row product-title">
+            <h3>
+                <strong>
+                    @Html.ActionLink("Название: " + Model.Name, "ElectronicCigarettes", new { @Model.ElectronicCigarettesId })
+                </strong>
+            </h3>
+        </div>
+
+        <div class="row">
+            <div class="lead col-xs-8">
+                Размеры: @Model.Size
+                <br>
+                Вес: @Model.Weight Гр.
+                <br>
+                Мощность батареи: @Model.BattaryPower Вт.
+            </div>
+
+            <div class="col-xs-3 pull-right Cart">
+                <div class="pull-right">
+                    <h3>
+                        <strong id="price" class="label label-primary">
+                            @Model.Price.ToString("# руб")
+                        </strong>
+                    </h3>
+                </div>
+                @using (Html.BeginForm("AddToCart", "Cart"))
+                {
+                    <div>
+                        @Html.HiddenFor(x => x.ElectronicCigarettesId)
+                        @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+                        <input type="submit" class="btn btn-success" value="Добавить в корзину" />
+                    </div>
+                }
+            </div>
+        </div>
+</div>

@@ -1,0 +1,48 @@
+﻿@model VapingStore.Entities.ElectronicCigarettes
+
+<div class="row well">
+
+    <div class="col-md-4">
+        <h2> @Model.Name</h2>
+
+        <div class="image">
+            <img width="300" src="../Content/Images/@Model.Image">
+        </div>
+
+        <h3>Характеристики товара:</h3>
+
+        <ul class="characteristic">
+            @foreach (var property in ViewData.ModelMetadata.Properties)
+            {
+                if (property.PropertyName != "ElectronicCigarettesId" 
+                    && property.PropertyName != "Name" 
+                    && property.PropertyName != "Image"
+                    && property.PropertyName != "Description")
+                {
+                    <li>
+                        <b>@property.DisplayName:</b>
+                        @Html.Value(property.PropertyName)
+                    </li>
+                }
+            }
+        </ul>
+    </div>
+
+    <div class="col-md-7 col-md-offset-1">
+
+        <div>
+            <h2>Подробное описание:</h2>
+            @Model.Description
+        </div>
+        <br />
+        @using (Html.BeginForm("AddToCart", "Cart"))
+         {
+            <div>
+                @Html.HiddenFor(x => x.ElectronicCigarettesId)
+                @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+                <input type="submit" class="btn btn-success" value="Добавить в корзину" />
+            </div>
+        }
+    </div>
+
+</div>

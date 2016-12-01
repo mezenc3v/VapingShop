@@ -1,0 +1,41 @@
+﻿@model VapingStore.Entities.ElectronicCigarettes
+
+@{
+    ViewBag.Title = "Админ панель: редактирование товара";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+
+}
+<div class="panel">
+    <div class="panel-heading">
+        <h3>Добавление товара</h3>
+    </div>
+
+    @using (Html.BeginForm("Create", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="panel-body">
+            @foreach (var property in ViewData.ModelMetadata.Properties)
+                {
+                    if (property.PropertyName != "ElectronicCigarettesId"
+                    && property.PropertyName != "Image")
+                    {
+                    <div class="form-group">
+                        <label>@(property.DisplayName ?? property.PropertyName)</label>
+                        @Html.TextBox(property.PropertyName, null, new { @class = "form-control" })
+                        @Html.ValidationMessage(property.PropertyName)
+                    </div>
+                }
+            }
+
+            <label>Картинка</label>
+            <a>
+                <input type="file" name="Image">
+            </a>
+
+            <div class="panel-footer">
+                <input type="submit" value="Добавить" class="btn btn-primary" />
+                @Html.ActionLink("Отмена", "Index", null, new { @class = "btn btn-default" })
+            </div>
+        </div>
+    }
+
+</div>

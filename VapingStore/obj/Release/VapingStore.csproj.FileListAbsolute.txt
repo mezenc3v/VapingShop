@@ -1,0 +1,135 @@
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\WebUI.dll.config
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\WebUI.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\WebUI.pdb
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Swashbuckle.Core.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\System.Web.Mvc.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\System.Web.Mvc.xml
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\obj\Release\WebUI.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\obj\Release\WebUI.pdb
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\csc.exe
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\vbc.exe
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\VBCSCompiler.exe
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\csc.exe.config
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\csc.rsp
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\csi.exe
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\csi.rsp
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\System.AppContext.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\vbc.exe.config
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\roslyn\vbc.rsp
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.AI.Web.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Moq.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Newtonsoft.Json.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Ninject.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.AI.Web.xml
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Moq.xml
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Newtonsoft.Json.xml
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\Ninject.xml
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Даниил\Documents\Visual Studio 2015\Projects\VapingStore\obj\Release\VapingStore.csprojResolveAssemblyReference.cache
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\csc.exe
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\csc.exe.config
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\csc.rsp
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\csi.exe
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\csi.rsp
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\System.AppContext.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\vbc.exe
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\vbc.exe.config
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\vbc.rsp
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\VBCSCompiler.exe
+C:\Users\Даниил\Desktop\VapingStore\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Даниил\Desktop\VapingStore\bin\WebUI.dll.config
+C:\Users\Даниил\Desktop\VapingStore\bin\WebUI.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\WebUI.pdb
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.AI.Web.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.Azure.AppService.ApiApps.Service.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Moq.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Newtonsoft.Json.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Ninject.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Swashbuckle.Core.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\System.Web.Mvc.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.AI.Web.xml
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Даниил\Desktop\VapingStore\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\Даниил\Desktop\VapingStore\bin\Moq.xml
+C:\Users\Даниил\Desktop\VapingStore\bin\Newtonsoft.Json.xml
+C:\Users\Даниил\Desktop\VapingStore\bin\Ninject.xml
+C:\Users\Даниил\Desktop\VapingStore\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\Даниил\Desktop\VapingStore\bin\System.Web.Mvc.xml
+C:\Users\Даниил\Desktop\VapingStore\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Даниил\Desktop\VapingStore\obj\Release\WebUI.Migrations.InitialCreate.resources
+C:\Users\Даниил\Desktop\VapingStore\obj\Release\WebUI.Migrations.DBMigration.resources
+C:\Users\Даниил\Desktop\VapingStore\obj\Release\WebUI.Migrations.DBMigration1.resources
+C:\Users\Даниил\Desktop\VapingStore\obj\Release\WebUI.Migrations.DBMigration2.resources
+C:\Users\Даниил\Desktop\VapingStore\obj\Release\VapingStore.csproj.GenerateResource.Cache
+C:\Users\Даниил\Desktop\VapingStore\obj\Release\WebUI.dll
+C:\Users\Даниил\Desktop\VapingStore\obj\Release\WebUI.pdb
+C:\Users\Даниил\Desktop\VapingStore\bin\EntityFramework.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\EntityFramework.SqlServer.dll
+C:\Users\Даниил\Desktop\VapingStore\bin\EntityFramework.xml
+C:\Users\Даниил\Desktop\VapingStore\bin\EntityFramework.SqlServer.xml
+C:\Users\Даниил\Desktop\VapingStore\obj\Release\VapingStore.csprojResolveAssemblyReference.cache
+C:\Users\Даниил\Desktop\VapingStore\obj\Release\WebUI.Migrations.DBMigration3.resources
+C:\Users\Даниил\Desktop\VapingStore\obj\Release\WebUI.Migrations.DBMigration4.resources
