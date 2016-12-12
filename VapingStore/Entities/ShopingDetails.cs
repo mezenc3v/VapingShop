@@ -3,11 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using System.Web.Mvc;
 
 namespace VapingStore.Entities
 {
     public class ShopingDetails
     {
+        [HiddenInput(DisplayValue = false)]
+        public int ShopingDetailsId { get; set; }
         [Required(ErrorMessage = "Укажите ваше имя")]
         public string Name { get; set; }
         [Required(ErrorMessage = "Адрес доставки")]

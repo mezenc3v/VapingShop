@@ -12,10 +12,14 @@ namespace VapingStore.Controllers
     public class CartController : Controller
     {
         private IElectronicCigarettesRepository repository;
+        private IShopingDetailsRepository detailsRepository;
         private IOrderProcessor orderProcessor;
-        public CartController(IElectronicCigarettesRepository repo, IOrderProcessor processor)
+
+
+        public CartController(IElectronicCigarettesRepository repo, IOrderProcessor processor, IShopingDetailsRepository details)
         {
             repository = repo;
+            detailsRepository = details;
             orderProcessor = processor;
         }
 
@@ -64,6 +68,14 @@ namespace VapingStore.Controllers
         {
             return View(new ShopingDetails());
         }
+
+
+        /// <summary>
+        /// Сохраняет данные о покупке
+        /// </summary>
+        /// <param name="cart">данные корзины</param>
+        /// <param name="shopingDetails">данные о покупателе</param>
+        /// <returns></returns>
         [HttpPost]
         public ViewResult Checkout(Cart cart, ShopingDetails shopingDetails)
         {
@@ -74,7 +86,9 @@ namespace VapingStore.Controllers
 
             if(ModelState.IsValid)
             {
-                orderProcessor.ProcessOrder(cart, shopingDetails);
+                
+                detailsRepository.AddShopingDetails(shopingDetails);
+
                 cart.Clear();
                 return View("Completed");
             }

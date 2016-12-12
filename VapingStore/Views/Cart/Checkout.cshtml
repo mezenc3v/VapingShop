@@ -17,7 +17,7 @@
     <h3>Адрес доставки</h3>
     foreach(var property in ViewData.ModelMetadata.Properties)
     {
-        if(property.PropertyName !="Name")
+        if(property.PropertyName !="Name" && property.PropertyName != "ShopingDetailsId")
         {
             <div class="form-group">
                 <label>

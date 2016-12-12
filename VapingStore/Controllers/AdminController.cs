@@ -29,6 +29,13 @@ namespace VapingStore.Controllers
 
             return View(cigarettes);
         }
+
+        /// <summary>
+        /// Изменяет данные о товаре
+        /// </summary>
+        /// <param name="electronicCigarettes">Товар</param>
+        /// <param name="image">фотография товара</param>
+        /// <returns>возвращает переход на главную страницу</returns>
         [HttpPost]
         public ActionResult Edit(ElectronicCigarettes electronicCigarettes, HttpPostedFileBase image = null)
         {
@@ -53,6 +60,12 @@ namespace VapingStore.Controllers
         {
             return View();
         }
+
+        /// <summary>
+        /// Удаляет товар
+        /// </summary>
+        /// <param name="electronicCigarettes">Товар</param>
+        /// <returns>возвращает перезод на главную страницу</returns>
         [HttpPost]
         public ActionResult Delete(ElectronicCigarettes electronicCigarettes)
         {
@@ -63,6 +76,13 @@ namespace VapingStore.Controllers
             }
             return RedirectToAction("Index");
         }
+
+         /// <summary>
+        /// Добавляет новый товар
+        /// </summary>
+        /// <param name="electronicCigarettes">Товар</param>
+        /// <param name="image">фотография товара</param>
+        /// <returns>возвращает переход на главную страницу</returns>
         public ActionResult Create(ElectronicCigarettes electronicCigarettes, HttpPostedFileBase image)
         {
             if (ModelState.IsValid)

@@ -20,7 +20,13 @@ namespace VapingStore.Controllers
             repository = repo;
         }
 
-        public ViewResult List(string produser, int page = 1)
+        /// <summary>
+        /// Возвращает список товаров по производителю
+        /// </summary>
+        /// <param name="produser">производитель</param>
+        /// <param name="page">номер страницы</param>
+        /// <returns>возвращает страницу с товарами</returns>
+        public ActionResult List(string produser, int page = 1)
         {
 
             ElectronicCigarettesViewModel model = new ElectronicCigarettesViewModel
@@ -44,7 +50,16 @@ namespace VapingStore.Controllers
 
             };
 
-            return View(model);
+            if(model.ElectronicCigarettes.Any())
+            {
+                return View(model);
+            }
+            else
+            {
+                return Redirect("/EmptyRequest.html");
+            }
+
+
         }
         public ViewResult ElectronicCigarettes(int ElectronicCigarettesId)
         {

@@ -31,6 +31,8 @@ namespace VapingStore.Infrastructure
 
             kernel.Bind<IOrderProcessor>().To<EmailOrderProcessor>()
                 .WithConstructorArgument("settings", emailSettings);
+
+            kernel.Bind<IShopingDetailsRepository>().To<EFShopingDetailsRepository>();
         }
 
         public object GetService(Type serviceType)

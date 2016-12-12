@@ -204,8 +204,10 @@
     <Content Include="Content\jasny-bootstrap.css" />
     <Content Include="Content\jasny-bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="EmptyRequest.html" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Error.html" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -248,11 +250,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\IElectronicCigarettesRepository.cs" />
+    <Compile Include="Abstract\IShopingDetailsRepository.cs" />
     <Compile Include="Abstract\IOrderProcessor.cs" />
     <Compile Include="App_Start\NinjectWebCommon.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\SwaggerConfig.cs" />
     <Compile Include="Concrere\EFDBContext.cs" />
+    <Compile Include="Concrere\EFShopingDetailsRepository.cs" />
     <Compile Include="Concrere\EFElectronicCigarettesRepository.cs" />
     <Compile Include="Concrere\EmailOrderProcessor.cs" />
     <Compile Include="Controllers\AdminController.cs" />
@@ -268,6 +272,11 @@
     <Compile Include="HtmlHelpers\PagingHelper.cs" />
     <Compile Include="Infrastructure\CartModelBinder.cs" />
     <Compile Include="Infrastructure\NinjectDependencyResolver.cs" />
+    <Compile Include="Migrations\201612121620189_ShopingDetails.cs" />
+    <Compile Include="Migrations\201612121620189_ShopingDetails.Designer.cs">
+      <DependentUpon>201612121620189_ShopingDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CartIndexViewModel.cs" />
     <Compile Include="Models\ElectronicCigarettesViewModel.cs" />
     <Compile Include="Models\PagingInfo.cs" />
@@ -302,6 +311,11 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201612121620189_ShopingDetails.resx">
+      <DependentUpon>201612121620189_ShopingDetails.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

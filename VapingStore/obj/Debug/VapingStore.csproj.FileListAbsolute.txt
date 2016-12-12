@@ -196,8 +196,6 @@ C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\bin\roslyn\VBCSCompile
 C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\bin\WebUI.dll.config
 C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\bin\WebUI.dll
 C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\bin\WebUI.pdb
-C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\bin\WebUI.dll.CodeAnalysisLog.xml
-C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\bin\WebUI.dll.lastcodeanalysissucceeded
 C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\bin\EntityFramework.dll
 C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\bin\EntityFramework.SqlServer.dll
 C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\bin\Microsoft.AI.Agent.Intercept.dll
@@ -232,6 +230,7 @@ C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\bin\Ninject.xml
 C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\bin\System.IdentityModel.Tokens.Jwt.xml
 C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\bin\System.Web.Mvc.xml
 C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\bin\ru\System.Web.Mvc.resources.dll
-C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\obj\Debug\VapingStore.csprojResolveAssemblyReference.cache
 C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\obj\Debug\WebUI.dll
 C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\obj\Debug\WebUI.pdb
+C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\obj\Debug\WebUI.Migrations.ShopingDetails.resources
+C:\Users\Даниил\Source\Repos\VapingShop\VapingStore\obj\Debug\VapingStore.csproj.GenerateResource.Cache

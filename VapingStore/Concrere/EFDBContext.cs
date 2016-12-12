@@ -11,6 +11,7 @@ namespace VapingStore.Concrere
     public class EFDbContext : DbContext
     {
         public DbSet<ElectronicCigarettes> ElectronicCigarettes { get; set; }
+        public DbSet<ShopingDetails> ShopingDetails { get; set; }
     }
 }
 

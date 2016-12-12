@@ -42,7 +42,7 @@ namespace VapingStore.App_Start
         {
             var kernel = new StandardKernel();
             try
-            {             
+            {
                 kernel.Bind<Func<IKernel>>().ToMethod(ctx => () => new Bootstrapper().Kernel);
                 kernel.Bind<IHttpModule>().To<HttpApplicationInitializationHttpModule>();
                 RegisterServices(kernel);
